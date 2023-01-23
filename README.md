@@ -4,3 +4,68 @@ Base du site
 
 
 <a href="/27c86dcc-12c8-4803-bb51-316363c3da76.JPG" target="_blank">Open Image</a>
+
+<!-- --------------------------------------------------------------- -->
+<!-- PARTIE AVEC LE BACKGROUND QUI MARCHE -->
+
+<div class="bg-image d-flex justify-content-center align-items-center" style="
+    background-image: url('./assets/images/DJSPIN.jpg');
+    background-size: cover;background-repeat:no-repeat;height: 100vh;
+  ">
+
+    <div class="container d-flex align-items-center justify-content-center text-center h-100">
+        <div class="text-white">
+
+            <img src="./assets/images/logo-removebg-preview.png" height="180" alt="" loading="lazy"
+                style="margin-bottom: 40px;" />
+            <div class="muzieknootjes">
+                <div class="noot-1">
+                    &#9835; &#9833;
+                </div>
+                <div class="noot-2">
+                    &#9833;
+                </div>
+
+                <h5 class="mb-4">Avec CHORUS, partagez <br>et vivez la musique.</h5>
+
+
+                <div class="noot-3">
+                    &#9839; &#9834;
+                </div>
+                <div class="noot-4">
+                    &#9834;
+                </div>
+
+                <!-- Buttons -->
+                <div *ngIf="!service.isConnected()">
+                    <div class="mx-n2" style="text-align: center;">
+                        <a routerLink="/login" class="btn btn-lg m-2 button_chorus_vert shadow-sm mx-2 px-lg-8">
+                            Connexion
+                        </a>
+                        <a routerLink="/register"
+                            class="btn btn-lg text-dark m-2 button_chorus_jaune text-dark shadow-sm mx-2 px-lg-8">
+                            Inscription
+                        </a>
+                    </div>
+                </div>
+                <div *ngIf="service.isConnected()">
+                    <div class="mx-n3" style="text-align: center;">
+                        <a routerLink="/evenements" class="btn btn-lg m-2 button_chorus_vert shadow-sm mx-2 px-lg-8">
+                            Évènements
+                        </a>
+                        <a routerLink="/playlists" class="btn btn-lg text-dark m-2 button_chorus_vclair px-lg-8">
+                            Playlist
+                        </a>
+                        <a routerLink="/boutique" class="btn btn-lg text-dark m-2 button_chorus_jaune mx-2 px-lg-8">
+                            Boutique
+                        </a>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
