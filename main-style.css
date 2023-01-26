@@ -1,65 +1,49 @@
-    #background-video {
-    height: 100vh;
-    width: 100vw;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    }
-    
-    #btnVideo{
-    
-    color: white;
-    
-    font-family: Trebuchet MS;
-    
-    font-weight: bold;
-    
-    text-align: center;
-
-     font-size: 1.5rem;
-    background: 0;
-    border: 0;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    }
-  
-
-    /* Carousel styling */
-    #introCarousel,
-    .carousel-inner,
-    .carousel-item,
-    .carousel-item.active {
-      height: 100vh;
+    body {
+      background-color: #c3b8ff;
     }
 
-    .carousel-item:nth-child(1) {
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
+    .box {
+      font-family: Arial;
+
+      border-radius: 10px;
+      border: 3px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: linear-gradient(145deg, #f0f0f0, #cacaca);
+      box-shadow: 17px 17px 34px #687de836,
+        -17px -17px 34px #4d05716a
     }
 
-    .carousel-item:nth-child(2) {
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
+    .conteneur {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 100px 100px 100px 100px 100px;
+      grid-gap: 10px;
+      margin: 10em;
     }
 
-    .carousel-item:nth-child(3) {
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
+    .une {
+      grid-column: 1 / 4;
+      grid-row: 1 / 2;
     }
 
-    /* Height for devices larger than 576px */
-    @media (min-width: 992px) {
-      #introCarousel {
-        margin-top: -58.59px;
-      }
+    .deux {
+      grid-column: 1 / 2;
+      grid-row: 2 / 4;
     }
-    
-    
-    
+
+    .cinq {
+      grid-column: 2 / 4;
+      grid-row: 3 / 4;
+    }
+
+    .six {
+      grid-column: 1 / 3;
+      grid-row: 4 / 5;
+    }
+
+    .huit {
+      grid-column: 1 / 4;
+    }
