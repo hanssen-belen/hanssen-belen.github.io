@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>home</title>
+    <title>projet-dev</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
     <!-- Google Fonts Roboto -->
@@ -15,6 +15,14 @@
     <link rel="stylesheet" href="css/mdb.min.css" />
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts Russo -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Russo+One" />
+
+
+
+
+
 </head>
 
 <body>
@@ -30,30 +38,33 @@
             }
 
             .navbar .nav-link {
-
-                margin-top: -5px !important;
-                color: #fff !important;
+                margin-top: -2px !important;
+                color: black !important;
                 font-size: 19px !important;
+
+
 
             }
         </style>
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+        <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block " style="z-index: 2000;">
             <div class="container-fluid">
                 <!-- Navbar brand -->
-                <a class="navbar-brand nav-link ">
-                    <strong>BHM</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
 
-                <div class="collapse navbar-collapse ">
+
+                <a class="navbar-brand nav-link">
+
+                    <img src="img/logo-dark.png" height="35" alt="" loading="lazy" />
+
+                </a>
+
+
+                <div class="collapse navbar-collapse " style="margin-left:25em;">
+
+
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" aria-current="page" href="index.html">
                                 Accueil
                             </a>
@@ -67,9 +78,11 @@
 
                     </ul>
 
+
+
                     <ul class="navbar-nav d-flex flex-row">
 
-                        <li class="nav-item  me-4 ">
+                        <li class="nav-item me-4 ">
                             <a class="nav-link" href="a-propos.html" rel="nofollow" target="_blank">
                                 À propos
                             </a>
@@ -81,37 +94,73 @@
         </nav>
         <!-- Navbar -->
 
-        <!-- Background image height: 80vh; -->
-        <div id="intro" class="bg-image  shadow-1-strong" style="height: 70vh">
-            <video style="width: 100%; " playsinline autoplay muted loop>
-                <source class="h-100" src="img/cont.mp4" type="video/mp4" />
-            </video>
-            <div class="mask" style="
-        background: linear-gradient(
-          45deg,
-          rgba(50, 7, 70, 0.76),
-          rgba(2, 4, 61, 0.87) 100%);">
+        <!-- Background image -->
+        <div class="bg-image d-flex justify-content-center align-items-center"
+            style="background-image: url('img/io12.png');background-size: cover;height: 65vh;">
 
-                <div class="container d-flex align-items-center justify-content-center text-center h-100">
-                    <div class="text-white">
+            <div class="container d-flex align-items-center justify-content-center text-center h-200">
+                <div class="text-dark">
 
-                        <div class="p-5 text-center ">
-                            <img src="img/logodev.png" height="85" alt="MDB Logo" loading="lazy" />
+                    <h1 class="display-2 mb-2">STAGES</h1>
 
-                        </div>
-                        <h1 class="mb-3">Belen Hanssen Marin</h1>
-                        <h5 class="mb-4">Ingénieure études et développement chez Solutec</h5>
 
-                        <a class="btn btn-outline-light btn-lg m-3" href="profil.html" role="button" rel="nofollow"
-                            target="_blank">Mon profil</a>
-                        <a class="btn btn-outline-light btn-lg m-3" href="projets.html" target="_blank"
-                            role="button">Mes Projets</a>
-                    </div>
+
+
+
+                    <a class="btn btn-outline-dark btn-lg m-3 text-russo-1" style="font-size: 1.2rem;"
+                        href="#ref-formation" role="button" rel="nofollow" target="_blank">BOUTON </a>
+
+                    <a class="btn btn-outline-dark btn-lg m-3 text-russo-1" style="font-size: 1.2rem;" href="#ref-expe"
+                        target="_blank" role="button">BOUTONs</a>
+
+
+
                 </div>
+
             </div>
         </div>
         <!-- Background image -->
     </header>
+
+
+
+    <div class=" d-flex justify-content-center align-items-center" style="height: 80vh;">
+
+        <div class="container d-flex align-items-center justify-content-center text-center h-100">
+            <h4 class="text-russo-1 mb-2" id="ref-formation">SECTION 1</h4>
+        </div>
+    </div>
+
+    <div class=" d-flex justify-content-center align-items-center"
+        style="height: 80vh; background-color: black;color: white;">
+
+        <div class="container d-flex align-items-center justify-content-center text-center h-100">
+            <h4 class="text-russo-1 mb-2" id="ref-expe">SECTION 2</h4>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </body>
