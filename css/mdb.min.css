@@ -19601,3 +19601,18 @@ fieldset:disabled .btn-group-vertical {
 .carousel-control-next-icon:after {
   content: ""
 }
+
+
+
+.mabox {
+
+  box-shadow: 39px -33px 0px 0px rgba(255, 255, 255, 0.97);
+  -webkit-box-shadow: 39px -33px 0px 0px rgba(255, 255, 255, 0.97);
+  -moz-box-shadow: 39px -33px 0px 0px rgba(255, 255, 255, 0.97);
+}
+
+.gauche {
+
+  justify-content: right;
+
+}
