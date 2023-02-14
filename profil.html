@@ -90,8 +90,10 @@
         <!-- Navbar -->
 
         <!-- Background image -->
-        <div class="bg-image d-flex justify-content-center align-items-center"
-            style="background-image: url('img/io12.png');background-size: cover;height: 65vh;">
+        <div class="bg-image d-flex justify-content-center align-items-center" style="background-image: url('img/io12.png');background: linear-gradient(
+                45deg,
+                rgb(124, 13, 244),
+                rgb(207, 64, 250) 100%);background-size: cover;height: 50vh;">
 
             <div class="container d-flex align-items-center justify-content-center text-center h-200">
                 <div class="text-dark">
@@ -103,17 +105,17 @@
                     <h5 class="text-russo-1 mb-2">Mon parcours</h5>
 
                     <a class="btn btn-outline-dark btn-lg m-3 text-russo-1" style="font-size: 1.2rem;"
-                        href="#ref-formation" role="button" rel="nofollow" target="_blank">Formations </a>
+                        href="#ref-formation" role="button">Formations </a>
 
                     <a class="btn btn-outline-dark btn-lg m-3 text-russo-1" style="font-size: 1.2rem;" href="#ref-expe"
-                        target="_blank" role="button">Expériences
+                        role="button">Expériences
                         professionelles</a>
 
                     <a class="btn btn-outline-dark btn-lg m-3 text-russo-1" style="font-size: 1.2rem;"
-                        href="#ref-skills" target="_blank" role="button">Compétences </a>
+                        href="#ref-skills" role="button">Compétences </a>
 
-                    <a class="btn btn-outline-dark btn-lg m-3 text-russo-1" style="font-size: 1.2rem;" href="ref-projet"
-                        target="_blank" role="button">Projets <br />
+                    <a class="btn btn-outline-dark btn-lg m-3 text-russo-1" style="font-size: 1.2rem;"
+                        href="#ref-projet" role="button">Projets <br />
                     </a>
 
                 </div>
@@ -124,57 +126,66 @@
     </header>
 
 
+    <!------------------------------------------- formations -->
+    <div class=" d-flex justify-content-center align-items-center" id="ref-formation" style="height: 15vh;">
 
+        <div class="container d-flex align-items-center justify-content-left text-center h-100">
+
+            <div class="display-6 text-uppercase text-russo-1 ">
+                Formations
+            </div>
+
+        </div>
+    </div>
+    <!-- section -->
     <div class=" d-flex justify-content-center align-items-center" style="height: 80vh;">
 
         <div class="container d-flex align-items-center justify-content-center text-center h-100">
-            <h4 class="text-russo-1 mb-2" id="ref-formation">Formations</h4>
+            <h4 class="text-russo-1 mb-2">text</h4>
         </div>
     </div>
 
-    <div class=" d-flex justify-content-center align-items-center"
-        style="height: 80vh; background-color: black;color: white;">
+    <!-------------------------------------------------- expe -->
+    <div class=" d-flex justify-content-center align-items-center" id="ref-expe"
+        style="height: 15vh; background-color: black;color: white;">
 
-        <div class="container d-flex align-items-center justify-content-center text-center h-100">
-            <h4 class="text-russo-1 mb-2" id="ref-expe">Expériences
-                professionelles</h4>
+        <div class="container d-flex align-items-center justify-content-left text-center h-100">
+            <h4 class="text-russo-1 mb-2" id="ref-expe">
+
+                <div class="display-6 text-uppercase text-russo-1 ">
+                    Expériences
+                    professionelles
+                </div>
+            </h4>
         </div>
     </div>
 
+    <!---------------------------------------------- skills -->
+    <div class=" d-flex justify-content-center align-items-center" id="ref-skills" style="height: 15vh">
 
-    <div class=" d-flex justify-content-center align-items-center" style="height: 80vh;">
+        <div class="container d-flex align-items-center justify-content-left text-center h-100">
+            <h4 class="text-russo-1 mb-2">
 
-        <div class="container d-flex align-items-center justify-content-center text-center h-100">
-            <h4 class="text-russo-1 mb-2" id="ref-skills">Compétences</h4>
+                <div class=" display-6 text-uppercase text-russo-1 ">
+                    Compétences
+                </div>
+            </h4>
         </div>
     </div>
 
-    <div class=" d-flex justify-content-center align-items-center"
-        style="height: 80vh; background-color: black;color: white;">
+    <!--------------------------------------------- projets -->
+    <div class=" d-flex justify-content-center align-items-center" id="ref-projet"
+        style="height: 15vh; background-color: black;color: white;">
 
-        <div class="container d-flex align-items-center justify-content-center text-center h-100">
-            <h4 class="text-russo-1 mb-2" id="ref-projet">Projets</h4>
+        <div class="container d-flex align-items-center justify-content-left text-center h-100">
+            <h4 class="text-russo-1 mb-2" id="ref-expe">
+
+                <div class="display-6 text-uppercase text-russo-1 ">
+                    projets
+                </div>
+            </h4>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
@@ -226,7 +237,7 @@
                             <a href="profil.html" class="text-reset">Profil</a>
                         </p>
                         <p>
-                            <a  class="text-reset">À propos de moi</a>
+                            <a class="text-reset">À propos de moi</a>
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -244,7 +255,7 @@
                             <a href="projet-dev.html" class="text-reset">Développement web</a>
                         </p>
                         <p>
-                            <a  class="text-reset">Génie mécanique</a>
+                            <a class="text-reset">Génie mécanique</a>
                         </p>
                     </div>
                     <!-- Grid column -->
