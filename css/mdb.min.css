@@ -5528,6 +5528,40 @@ fieldset:disabled .btn {
   color: #fff
 }
 
+
+.macard {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 2px solid;
+  border-radius: 23px;
+  border-color: rgb(0, 0, 0);
+
+}
+
+.img-rad {
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+
+.btn-gradient-2 {
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+}
+
 .card {
   position: relative;
   display: -webkit-box;
